@@ -16,6 +16,7 @@ import UserFormArtView from "./pages/UserFormArt";
 import MyGallery from "./pages/MyGallery";
 import AddMovie from "./pages/AddMovie";
 import GalleryDetail from "./pages/GalleryDetails";
+import MyGalleries from "./pages/MyGalleries";
 
 export default function App() {
   const [user, setUser] = useState(null);
@@ -76,6 +77,7 @@ setUser(user)
         <Route path="/artists" element={<ArtistsView/>}/>
         <Route path="/user/create-gallery" element={<UserFormArtView user={user}/>}/>
         <Route path="gallery/Details/:id" element={<GalleryDetail/>}/>
+        <Route path="/user/gallery" element={<MyGalleries user={user}/>}/>
       </Routes>
     </div>
   );

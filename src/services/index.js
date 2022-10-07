@@ -33,3 +33,10 @@ export function galleryDetails(id) {
       .then(successStatus)
       .catch(internalServerError);
   }
+
+  export function galleryDetailsUser(id) {
+    return authService
+      .get(`/gallery/user-detail/${id}`)
+      .then(successStatus)
+      .catch(internalServerError);
+  }

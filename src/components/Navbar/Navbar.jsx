@@ -10,7 +10,6 @@ const Navbar = (props) => {
     <nav>
       <Link to="/"><h1 className=" authLink text-sm  sm:text-4xl text-white">ARTMETH</h1></Link>
       <Link to="/gallery"><h3 className="text-sm  sm:text-4xl text-white">Gallery</h3></Link>
-      <Link to="/artists"><h3 className="text-sm  sm:text-4xl text-white">Artists</h3></Link>
       <div className="nav__authLinks">
         {/* This will be the menu that the user will see when he start session */}
         {props.user ? (

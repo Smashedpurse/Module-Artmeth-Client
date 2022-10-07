@@ -65,7 +65,7 @@ const SingUp = (props) => {
                 </div>
                 <div className='flex flex-col py-2'>
                     <label>Password</label>
-                    <input className='border p-2' type="text" placeholder='Provide your password' value={password} onChange ={handleInputChange} name='password' />
+                    <input className='border p-2' type="password" placeholder='Provide your password' value={password} onChange ={handleInputChange} name='password' />
                 </div>
                 <button type='submit' className='border- w-full my-5 py-2 bg-indigo-600  text-white'>Signup</button>
                 <div className='flex justify-between'>

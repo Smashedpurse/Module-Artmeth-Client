@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Arta from '../../assets/Arta.jpg'
-import SliderGallery from '../../components/SliderGallery'
+import SliderGallery from '../SliderGallery'
 
 
 const CardGallerty = () => {
@@ -19,7 +19,7 @@ const CardGallerty = () => {
 
   return (
     <>
-    <h1 className='absolute py-3 text-2xl m-10 t-10 md:text-4xl font-bold flex justify'>Gallery</h1>
+    <h1 className='relative py-3 text-2xl m-10 t-18 md:text-4xl font-bold flex justify'>Gallery</h1>
         
             <div >
                 <div className='bg-zinc-200/20 rounded-xl m-8'>

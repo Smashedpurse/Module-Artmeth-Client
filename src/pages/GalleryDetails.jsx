@@ -26,7 +26,6 @@ const GalleryDetail = () => {
               <h2 className='font-bold text-lg'> {details.galleryname} </h2>
               <p className='text-sm text-gray-600'>{details.description}</p> 
               <div className='m-2'>
-              <button className='text-white bg-purple-600 px-3 py-'>See More</button>
             </div>
         </div>
       
